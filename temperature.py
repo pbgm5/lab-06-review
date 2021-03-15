@@ -3,7 +3,9 @@ tempincelsius = input("Please enter a temperature in celsuis...")
 # print((tempincelsius))
 
 tempinfahrenheit = float(tempincelsius * 1.8 + 32
-print(tempincelsius)
-print((tempincelsius))
+# print(tempinfahrenheit)
+# print((tempinfahrenheit))
 
-# print(tempincelsius + " degrees celsius is " + "tempinfahrenheit.")
+roundedF = round(tempinfahrenheit, 2)
+
+print(tempincelsius + " degrees celsius is " + str(roundedF) + "degrees fahrenheit"
